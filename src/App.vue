@@ -35,7 +35,7 @@ function prevImage() {
 
 <template>
   <div>
-    <p style="color: white;">Berhitung: {{ count }}</p>
+    <p style="color: white;">Hitung: {{ count }}</p>
     <button @click="increment">Tambah</button>
     
     <div :style="{ backgroundColor: color, width: '200px', height: '200px', margin: '20px auto', borderRadius: '50%' }"></div>
